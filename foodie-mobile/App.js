@@ -1,13 +1,15 @@
-import { Image, ImageBase, Text } from 'react-native';
-import icons from './src/constants/icons.js';
+import { Text } from 'react-native';
 import { styles } from './style.js';
+import Button from './src/components/button/button.jsx';
+
+
 
 export default function App() {
   const nome = "Victor"
 
   return (<>
-      <Text>Oii {nome}!</Text>
-      <Image style={styles.imagem} source={icons.remove} />
+      <Text style={styles.texto}>Oii {nome}!</Text>
+      <Button></Button>
       </>
   );
 }
