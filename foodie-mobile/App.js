@@ -1,15 +1,9 @@
-import { Text } from 'react-native';
-import { styles } from './style.js';
-import Button from './src/components/button/button.jsx';
-
-
+import Login from "./src/screens/login/login.jsx";
+import Registro from "./src/screens/registro/registro.jsx";
 
 export default function App() {
-  const nome = "Victor"
-
   return (<>
-      <Text style={styles.texto}>Oii {nome}!</Text>
-      <Button></Button>
+      <Registro></Registro>
       </>
   );
 }
