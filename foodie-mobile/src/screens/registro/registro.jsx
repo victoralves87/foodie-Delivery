@@ -4,7 +4,7 @@ import Header from "../../components/header/header.jsx";
 import TextBox from "../../components/textbox/textbox.jsx";
 import Button from "../../components/button/button.jsx"
 
-function Registro(){
+function Registro(props){
     return  <>
      
     <View style={styles.container}>
@@ -25,15 +25,10 @@ function Registro(){
                 <TextBox label="Confirme sua Senha:" isPassword={true}/>
             </View>
             <View style={styles.form2}>
-                <Button texto="Proximo passo"></Button>
+                <Button texto="Proximo passo" onPress={() => props.navigation.navigate("registro2")}/>
             </View>
         </View>
         </ScrollView>
-            <View style={styles.footer}>
-                <TouchableOpacity>
-                    <Text style={styles.footerText}>Acessar minha Conta</Text>
-                </TouchableOpacity>
-            </View>
     </View>
     
     </>

@@ -6,7 +6,8 @@ export const styles = {
       flex: 1,
       padding: 50,
       justifyContent: "center",
-      alignItems: "center"
+      alignItems: "center",
+      backgroundColor: COLORS.white
     },
     form: {
       width: "100%",

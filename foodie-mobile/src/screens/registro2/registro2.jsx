@@ -39,11 +39,6 @@ function Registro2(){
             </View>
         </View>
         </ScrollView>
-            <View style={styles.footer}>
-                <TouchableOpacity>
-                    <Text style={styles.footerText}>Acessar minha Conta</Text>
-                </TouchableOpacity>
-            </View>
     </View>
     
     </>
