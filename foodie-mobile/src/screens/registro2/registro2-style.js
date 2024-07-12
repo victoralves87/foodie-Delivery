@@ -12,6 +12,19 @@ export const styles = {
       width: "100%",
       marginTop: 15
     },
+    formHorizontal: {
+        flexDirection: "row",
+        marginTop: 10
+    },
+    form70: {
+        marginBottom: 8,
+        width: "70%",
+        paddingRight: 5
+    },
+    form30: {
+        marginBottom: 8,
+        width: "30%",
+    },
     ScrollView: {
       width: "100%"
     },
